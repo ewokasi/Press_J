@@ -11,7 +11,7 @@ current_month = datetime.now().month
 
 obj_keys = ["линал", "матанал", "история", "культура", "англ", "физра", "бжд", "инфа"]
 
-Token ='1967246442:AAEuMFRGo4Hoy0nhDKF5elXLv0j9MaGB4_E'
+Token ='##################'
 bot = telebot.TeleBot(Token)
 
 @bot.message_handler(commands=['start'])
